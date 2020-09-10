@@ -1,0 +1,131 @@
+@media (min-width: 300px){
+    div.title{
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }  
+     
+    main{
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 420px){
+    div.title{
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }  
+     
+    main{
+        width: 80%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px){
+    div.title{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        text-align: left;
+    }   
+
+    main{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+#heading{
+    color: #227947;
+    font-weight: bold;
+    font-size: 200%;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px; 
+}
+
+#test_task{
+    color: #4C4C4C;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 125%; 
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+div.month{
+    width: 160px;
+    display: inline-block;
+    background: #EBF5EC;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #69A977;
+    border-width: 0.25px;
+    padding: 10px;
+    padding-top: 5px;
+}
+
+table{
+    border-collapse: separate;
+    background:#EBF5EC;
+    text-align: center;
+    table-layout: fixed;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    height: auto;
+}
+
+th, td{
+    font-weight: normal;
+    text-align: center;
+    color: #227947;
+    font-size: small;
+    background: white;
+    height: 25px;
+}
+
+hr{
+    margin: 0;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    border-bottom-style: dashed;
+    border-bottom-width: 10px;
+    border-bottom-color: #EBF5EC;
+}
+
+#month_title{
+    color: #227947;
+    font-size: large;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 0;
+    background: none;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #227947;
+}
+
+#holiday{
+    background: #E2917B;
+    color: white;
+}
